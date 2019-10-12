@@ -1,0 +1,60 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: baseline;
+    align-items: center;
+    text-align: center; 
+     
+}
+.row{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;  
+    justify-content: baseline;
+    align-items: center;
+}
+.img1{
+    width: 220px;
+    float: left;
+    justify-content: baseline;
+    flex: 1 1 220px;
+}
+.content{
+    width: 220px;
+    float: left;
+    justify-content: baseline;
+    padding: 1em 20px;
+    flex: 1 1 220px;
+}
+.row2{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;  
+    justify-content: baseline;
+    flex-flow: row-reverse wrap;
+    display: flex;
+}
+.img2{
+    width: 220px;
+    float: left;
+    justify-content: baseline;
+    flex: 1 1 220px;
+    flex-flow: row-reverse wrap;
+    display: flex;
+}
+.content2{
+    width: 220px;
+    float: left;
+    justify-content: baseline;
+    padding: 1em 20px;
+    flex: 1 1 220px;
+}
